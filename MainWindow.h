@@ -1,7 +1,3 @@
-//
-// Created by Anselmet on 06/02/2020.
-//
-
 #ifndef TP_QT_MAINWINDOW_H
 #define TP_QT_MAINWINDOW_H
 

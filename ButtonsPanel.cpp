@@ -1,7 +1,3 @@
-//
-// Created by Anselmet on 13/02/2020.
-//
-
 #include "ButtonsPanel.h"
 
 ButtonsPanel::ButtonsPanel(QWidget *parent) : QWidget(parent) {

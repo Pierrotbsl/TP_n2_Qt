@@ -1,7 +1,3 @@
-//
-// Created by Anselmet on 16/02/2020.
-//
-
 #include "LabeledTextField.h"
 
 LabeledTextField::LabeledTextField(QWidget *widgets) :QWidget(widgets){

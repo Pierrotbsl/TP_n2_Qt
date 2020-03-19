@@ -1,24 +1,18 @@
-//
-// Created by Anselmet on 13/02/2020.
-//
-
 #ifndef TP_QT_SQLCLIENTWINDOW_H
 #define TP_QT_SQLCLIENTWINDOW_H
-#include <QtWidgets/QWidget>
-#include <QtWidgets/QPushButton>
 #include <QMainWindow>
-#include <QVBoxLayout>
-#include "ButtonsPanel.h"
+#include <QWidget>
 #include <QTextEdit>
 #include <QTableWidget>
+#include "ButtonsPanel.h"
 
 
 
 class SQLClientWindow : public QMainWindow{
 Q_OBJECT
-public:
-    SQLClientWindow(QMainWindow* fenetre=0);
 
+public:
+    SQLClientWindow(QWidget *fenetre=0);
 private:
     QTextEdit* notificationPanel;
     QTableWidget* resultTable;

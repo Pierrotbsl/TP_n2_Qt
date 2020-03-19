@@ -1,7 +1,3 @@
-//
-// Created by Anselmet on 16/02/2020.
-//
-
 #ifndef TP_QT_LABELEDTEXTFIELD_H
 #define TP_QT_LABELEDTEXTFIELD_H
 

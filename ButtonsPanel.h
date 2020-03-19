@@ -1,7 +1,3 @@
-//
-// Created by Anselmet on 13/02/2020.
-//
-
 #ifndef TP_QT_BUTTONSPANEL_H
 #define TP_QT_BUTTONSPANEL_H
 

@@ -1,16 +1,13 @@
-//
-// Created by Anselmet on 13/02/2020.
-//
-
-#include <QtWidgets/QHeaderView>
+#include <QHeaderView>
+#include <QWidget>
 #include "SQLClientWindow.h"
 
 
 
-SQLClientWindow::SQLClientWindow(QMainWindow *fenetre) : QMainWindow(fenetre){
+SQLClientWindow::SQLClientWindow(QWidget *fenetre) : QMainWindow(fenetre){
 
 
-    notificationPanel =  new QTextEdit("Salut les fillesss ! <3");
+    notificationPanel =  new QTextEdit("Bonjour");
     resultTable = new QTableWidget();
     resultTable->setToolTip("Table");
 
